@@ -1,23 +1,3 @@
-# tsdown-starter
+# @duydang2311/jsbelt
 
-A starter for creating a TypeScript package.
-
-## Development
-
-- Install dependencies:
-
-```bash
-npm install
-```
-
-- Run the unit tests:
-
-```bash
-npm run test
-```
-
-- Build the library:
-
-```bash
-npm run build
-```
+A handy set of JS utilities I always run into, so I might as well keep them available in one place.
