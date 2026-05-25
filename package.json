@@ -1,43 +1,50 @@
 {
-  "name": "@duydang2311/jsbelt",
-  "type": "module",
-  "version": "0.0.1",
-  "description": "JavaScript/TypeScript handy utilities in the belt. Available to grab whenever you need.",
-  "author": "Dang Quoc Duy <duyda.himself@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/duydang2311/jsbelt#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/duydang2311/jsbelt.git"
-  },
-  "bugs": {
-    "url": "https://github.com/duydang2311/jsbelt/issues"
-  },
-  "exports": {
-    ".": "./dist/index.mjs",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch",
-    "test": "vitest",
-    "typecheck": "tsc --noEmit",
-    "release": "bumpp",
-    "prepublishOnly": "bun run build"
-  },
-  "devDependencies": {
-    "@types/node": "^25.6.2",
-    "@typescript/native-preview": "7.0.0-dev.20260509.2",
-    "bumpp": "^11.1.0",
-    "nanoevents": "^9.1.0",
-    "tsdown": "^0.22.0",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.5"
-  },
-  "inlinedDependencies": {
-    "nanoevents": "9.1.0"
-  }
+    "name": "@duydang2311/jsbelt",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "JavaScript/TypeScript handy utilities in the belt. Available to grab whenever you need.",
+    "author": "Dang Quoc Duy <duyda.himself@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/duydang2311/jsbelt#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/duydang2311/jsbelt.git"
+    },
+    "bugs": {
+        "url": "https://github.com/duydang2311/jsbelt/issues"
+    },
+    "exports": {
+        ".": "./dist/index.mjs",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsdown",
+        "dev": "tsdown --watch",
+        "test": "vitest",
+        "typecheck": "tsc --noEmit",
+        "release": "bumpp",
+        "prepublishOnly": "bun run build"
+    },
+    "devDependencies": {
+        "@types/node": "^18",
+        "@typescript/native-preview": "7.0.0-dev.20260509.2",
+        "bumpp": "^11.1.0",
+        "nanoevents": "^9.1.0",
+        "tsdown": "^0.22.0",
+        "typescript": "^5",
+        "vitest": "^4.1.7"
+    },
+    "peerDependencies": {
+        "typescript": ">=5 <=7"
+    },
+    "inlinedDependencies": {
+        "nanoevents": "9.1.0"
+    },
+    "sideEffects": false,
+    "engines": {
+        "node": ">=18"
+    }
 }
