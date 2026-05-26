@@ -1,7 +1,7 @@
 {
     "name": "@duydang2311/jsbelt",
     "type": "module",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "JavaScript/TypeScript handy utilities in the belt. Available to grab whenever you need.",
     "author": "Dang Quoc Duy <duyda.himself@gmail.com>",
     "license": "MIT",
