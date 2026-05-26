@@ -1,6 +1,6 @@
 import MagicString from 'magic-string';
 import { Visitor, parse } from 'oxc-parser';
-import { type UserConfig } from 'vite';
+import type { UserConfig } from 'vite';
 
 export function guardPlugin() {
     let prod = false;
