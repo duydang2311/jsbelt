@@ -15,6 +15,7 @@
     },
     "exports": {
         ".": "./dist/index.mjs",
+        "./vite": "./dist/vite.mjs",
         "./package.json": "./package.json"
     },
     "files": [
